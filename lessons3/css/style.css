@@ -1,5 +1,8 @@
 body {
 	background-color: #f8f8f8;
+	width: auto;
+	display: block;
+	margin: 10px;
 }
 
 .menu li a {
@@ -50,10 +53,6 @@ p {
 	width: 670px;
 	margin: 50px auto;
 
-}
-
-body {
-	width: auto;
 }
 
 .footer {
