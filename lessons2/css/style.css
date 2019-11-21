@@ -1,4 +1,12 @@
-ul.menu li {
+body {
+	background-color: #f8f8f8;
+}
+
+.menu li a {
+	color: #8B00FF;
+}
+
+.menu li {
 	display: inline;
 	/* Отображать как строчный элемент */
 	margin-right: 5px;
@@ -8,6 +16,8 @@ ul.menu li {
 	padding: 3px;
 	/* Поля вокруг текста */
 	text-align: center;
+	font-style: italic;
+	font-size: 20px;
 }
 
 ul.menu {
@@ -86,9 +96,16 @@ body {
 	float: left;
 	text-align: center;
 }
+.product_catalog a{
+	text-decoration: none;
+}
 
 .product {
 	width: 800px;
 	height: 300px;
 	margin: 0 auto;
+}
+
+.product a{
+		text-decoration: none;
 }

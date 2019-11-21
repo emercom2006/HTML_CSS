@@ -1,0 +1,205 @@
+body {
+	background-color: #f8f8f8;
+}
+
+.menu li a {
+	color: #8B00FF;
+	text-decoration: none;
+}
+
+.menu li {
+	display: inline;
+	/* Отображать как строчный элемент */
+	margin-right: 5px;
+	/* Отступ слева */
+	border: 1px solid #000;
+	/* Рамка вокруг текста */
+	padding: 3px;
+	/* Поля вокруг текста */
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.menu {
+	text-align-last: center;
+}
+
+.center {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	/* Гарнитура текста */
+	font-size: 150%;
+	/* Размер шрифта в процентах */
+}
+
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	/* Гарнитура текста */
+	font-size: 150%;
+	/* Размер шрифта в процентах */
+}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	/* Размер шрифта в пунктах */
+}
+
+.map {
+	width: 670px;
+	margin: 50px auto;
+
+}
+
+body {
+	width: auto;
+}
+
+.footer {
+	text-align: center;
+	position: fixed;
+	/* Фиксированное положение */
+	left: 0;
+	bottom: 0;
+	/* Левый нижний угол */
+	padding: 10px;
+	/* Поля вокруг текста */
+	background: #666;
+	/* Цвет фона */
+	color: #fff;
+	/* Цвет текста */
+	width: 100%;
+	/* Ширина слоя */
+}
+
+.imgCatalog {
+	height: 40%;
+	width: 40%;
+	border-radius: 25px;
+	/* Радиус скругления */
+	box-shadow: 0 0 7px #666;
+	/* Параметры тени */
+	padding: 5px;
+}
+
+.imgProduct {
+	height: 15%;
+	width: 15%;
+	border-radius: 25px;
+	/* Радиус скругления */
+	box-shadow: 0 0 7px #666;
+	/* Параметры тени */
+	padding: 5px;
+}
+
+.product_catalog {
+	float: left;
+	text-align: center;
+}
+
+.product {
+	width: 800px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.product a {
+	text-decoration: none;
+}
+
+.h1_product {
+	background-color: #eaeaea;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 20%;
+	width: 60%;
+	padding-left: 15px;
+}
+
+.description_product {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.characteristics_products {
+	color: #353535;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 22px;
+}
+
+.characteristics_products li {
+	background: url(../img/ico.jpg) no-repeat 0 0px;
+	/* Параметры фона */
+	padding-left: 25px;
+	/* Смещаем текст вправо */
+	list-style: none;
+
+}
+
+input {
+	border: 1px solid #cccccc;
+	/*цвет рамки */
+	border-radius: 3px;
+	/*закругление углов (общее) */
+	-webkit-border-radius: 3px;
+	/*закругление углов (Google Chrome) */
+	-moz-border-radius: 3px;
+	/*закругление углов (FireFox) */
+	-khtml-border-radius: 3px;
+	/*закругление углов (Safari) */
+	background: #ffffff !important;
+	/* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым */
+	outline: none;
+	/*удаляет обводку в браузерах хром(желтая) и сафари(синяя) */
+	height: 24px;
+	/* высота на свое усмотрение */
+	width: 200px;
+	/* ширина на свое усмотрение */
+	color: #cccccc;
+	/*цвет шрифта в обычном с */
+	остоянии */ font-size: 11px;
+	/* Размер шрифта */
+	font-family: Tahoma;
+	/* Стиль шрифта */
+}
+
+input:focus {
+	color: #000000;
+	border: 1px solid #000000
+}
+
+textarea:focus {
+	color: #000000;
+	border: 1px solid #000000
+}
+
+textarea {
+	border: 1px solid #cccccc;
+	/*цвет рамки */
+	border-radius: 3px;
+	/*закругление углов (общее) */
+	-webkit-border-radius: 3px;
+	/*закругление углов (Google Chrome) */
+	-moz-border-radius: 3px;
+	/*закругление углов (FireFox) */
+	-khtml-border-radius: 3px;
+	/*закругление углов (Safari) */
+	background: #ffffff !important;
+	/* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым */
+	outline: none;
+	/*удаляет обводку в браузерах хром(желтая) и сафари(синяя) */
+	height: 100px;
+	/* высота на свое усмотрение */
+	width: 200px;
+	/* ширина на свое усмотрение */
+	color: #cccccc;
+	/*цвет шрифта в обычном с */
+	остоянии */ font-size: 11px;
+	/* Размер шрифта */
+	font-family: Tahoma;
+	/* Стиль шрифта */
+}
