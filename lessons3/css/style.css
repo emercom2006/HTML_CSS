@@ -114,6 +114,7 @@ p {
 	margin-left: 20%;
 	width: 60%;
 	padding-left: 15px;
+	overflow: hidden;
 }
 
 .description_product {
